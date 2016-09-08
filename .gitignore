@@ -1,3 +1,5 @@
+/.idea
+.gitattributes
 /vendor
 /node_modules
 /public/storage

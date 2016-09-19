@@ -23,6 +23,7 @@
 <section>
     @include('errors.errmsg')
     @yield('body')
+
 </section>
 @include('footer.footer')
 @include('footer.foot_script')

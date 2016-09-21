@@ -1,10 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: sr
- * Date: 15.09.16
- * Time: 21:12
- */?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->

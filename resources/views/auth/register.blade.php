@@ -4,7 +4,7 @@
  * User: sr
  * Date: 15.09.16
  * Time: 21:40
- */?>
+ */ ?>
 @extends('layouts.master')
 @section('body')
     {!! Form::open() !!}

@@ -1,13 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: sr
- * Date: 15.09.16
- * Time: 21:18
- */?>
 @if ($errors->any())
     <div class="alert alert-danger alert-block">
-        {{-- <button type="button" class="close" data-dismiss="alert"><i class="fa fa-minus-square"></i></button> --}}
+         <button type="button" class="close" data-dismiss="alert"><i class="fa fa-minus-square"></i></button>
         <strong>Ошибка</strong>
         @if ($message = $errors->first(0, ':message'))
             {{ $message }}

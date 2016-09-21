@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 
-Route::group(['middleware' => ['web']], function () {
+
     /*
      * Route for auth system
      */
@@ -45,4 +45,3 @@ Route::group(['middleware' => ['web']], function () {
 // о том, что письмо отправлено и надо заглянуть в почтовый ящик.
     Route::get('wait', 'AuthController@wait');
 
-});
